@@ -1,4 +1,4 @@
-# FarmEcho 🌾
+# FarmEcho 
 
 > A comprehensive digital network platform for Kenyan smallholder farmers — facilitating real-time communication, collective decision-making, and market intelligence.
 
@@ -25,7 +25,7 @@
 
 ---
 
-🏗️ Project Structure
+ Project Structure
 
 ```
 farmecho/
@@ -59,7 +59,7 @@ farmecho/
 
 ---
 
-## 🛣️ URL Routes
+##  URL Routes
 
 | Path | Screen |
 |---|---|
@@ -117,10 +117,10 @@ git clone https://github.com/YOUR-USERNAME/farmecho.git
 cd farmecho
 
 # 2. Install dependencies
-pnpm install
+npm install
 
 # 3. Start the development server
-pnpm dev
+npm run dev
 ```
 
 Open http://localhost:5173/ in your browser.
@@ -137,7 +137,7 @@ SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
 
 ---
 
-## 🚢 Deployment
+##  Deployment
 
 ### Vercel (Recommended)
 
@@ -164,7 +164,7 @@ See [`src/app/DEPLOY_PERSONAL.md`](src/app/DEPLOY_PERSONAL.md) for a detailed st
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -180,7 +180,7 @@ See [`src/app/DEPLOY_PERSONAL.md`](src/app/DEPLOY_PERSONAL.md) for a detailed st
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/your-feature`
@@ -190,16 +190,16 @@ See [`src/app/DEPLOY_PERSONAL.md`](src/app/DEPLOY_PERSONAL.md) for a detailed st
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 Built for Kenyan smallholder farmers. Inspired by the spirit of *Harambee* — pulling together as a community.
 
 ---
 
-**Built with ❤️ for Kenyan farmers** | *Empowering communities through digital connectivity*
+**Built with love for Kenyan farmers** | *Empowering communities through digital connectivity*
