@@ -99,70 +99,7 @@ farmecho/
 
 ## Running Farm Echo
 
-### Prerequisites
-
-- **Node.js** 18+
-- **pnpm** (recommended)
-
-```bash
-# Install pnpm if you don't have it
-npm install -g pnpm
-```
-
-### Setup
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/YOUR-USERNAME/farmecho.git
-cd farmecho
-
-# 2. Install dependencies
-npm install
-
-# 3. Start the development server
-npm run dev
-```
-
-Open http://localhost:5173/ in your browser.
-
-### Environment Variables
-
-The backend runs on Supabase Edge Functions. To connect the full backend locally, create a `.env` file:
-
-```env
-SUPABASE_URL=your_supabase_project_url
-SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-```
-
----
-
-##  Deployment
-
-### Vercel (Recommended)
-
-```bash
-# Push to GitHub, then:
-# 1. Go to vercel.com → New Project
-# 2. Import your GitHub repository
-# 3. Set environment variables (from .env above)
-# 4. Deploy — live in ~2 minutes
-```
-
-### Netlify
-
-```bash
-# Push to GitHub, then:
-# 1. Go to netlify.com → Add new site → Import from Git
-# 2. Build command: pnpm build
-# 3. Publish directory: dist
-# 4. Set environment variables
-# 5. Deploy
-```
-
-See [`src/app/DEPLOY_PERSONAL.md`](src/app/DEPLOY_PERSONAL.md) for a detailed step-by-step guide.
-
----
+Open  https://farming-echo.vercel.app/
 
 ##  Tech Stack
 
@@ -188,18 +125,6 @@ See [`src/app/DEPLOY_PERSONAL.md`](src/app/DEPLOY_PERSONAL.md) for a detailed st
 4. Push: `git push origin feature/your-feature`
 5. Open a Pull Request
 
----
-
-##  License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-##  Acknowledgements
-
-Built for Kenyan smallholder farmers. Inspired by the spirit of *Harambee* — pulling together as a community.
-
----
+Click to view  https://farming-echo.vercel.app/
 
 **Built with love for Kenyan farmers** | *Empowering communities through digital connectivity*
